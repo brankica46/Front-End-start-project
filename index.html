@@ -1,0 +1,347 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Resto</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.min.css">
+        <link rel="stylesheet" href="css/lightbox.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/hamburgers.css">
+        
+    </head>
+    <body>
+
+
+        <!-- NAV -->
+        <div class="header-container">
+            <header>
+                <img src="img/logo.jpg" id="img-logo">
+                <nav class="sidebar">
+                    <ul>
+                        <li><a href="#red-menu" class="cool-link sliding-link">Menu</a></li>
+                        <li><a href="#allmenu" class="cool-link sliding-link">Dishes</a></li>
+                        <li><a href="#about-anchor" class="cool-link sliding-link">About us</a></li>
+                        <li><a href="#gallery-anchor" class="cool-link sliding-link">Gallery</a></li>
+                    </ul>
+                </nav>
+                <button class="sidebarBtn"><span></span></button>
+            </header>
+        </div>
+
+        <div class="main-container">
+
+
+            <!-- SLIDESHOW -->
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                    <img src="img/slider1.jpg" style="width:100%">
+                </div>
+                            
+                <div class="mySlides fade">
+                    <img src="img/slider2.jpg" style="width:100%">
+                </div>
+                            
+                <div class="mySlides fade">
+                    <img src="img/slider3.jpg" style="width:100%">
+                </div>
+                            
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                            
+            </div>
+            <br>
+                            
+            <div class="slide-dots">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+
+            <div id="red-menu">
+                <img src="img/menu.png">
+            </div>
+
+
+            <div class="container">
+
+                <!-- RESTAURANT MENU -->
+                <div class="menu-left">
+                    <h3>
+                        <span>Voluptate cillum fugiat.</span>
+                        <span>$50</span>
+                    </h3>
+                    <p class="menu-p">Cheese, tomato, mushrooms, onions.</p>
+                    <h3>
+                        <span>Metus varius laoreet.</span>
+                        <span>$62</span>
+                    </h3>
+                    <p class="menu-p">Chicken, mozzarela cheese, onions.</p>
+                    <h3>
+                        <span>Donec sodales magna.</span>
+                        <span>$25</span>
+                    </h3>
+                    <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                    <h3>
+                        <span>Saugue velit cursus.</span>
+                        <span>$30</span>
+                    </h3>
+                    <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                </div>
+                <div class="menu-right">
+                    <h3>
+                        <span>Arcu pede enim justo.</span>
+                        <span>$45</span>
+                    </h3>
+                    <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                    <h3>
+                        <span>Cras dapibussemper nisi.</span>
+                        <span>$32</span>
+                    </h3>
+                    <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                    <h3>
+                        <span>Quam semper libero.</span>
+                        <span>$25</span>
+                    </h3>
+                    <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                    <h3>
+                        <span>Saugue velit cursus.</span>
+                        <span>$30</span>
+                    </h3>
+                    <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                </div>
+                <br><br><br>
+
+
+
+                <!-- FEATURED DISHES -->
+                <a href="#"><img src="img/allmenu.jpg" id="allmenu"></a>
+                <div id="myModal" class="modal">
+                    <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <img src="img/logo.png">
+                        <h2 class="modal-h2">Meal</h2>
+                        <h2 class="modal-h2" id="right-h2-modal">Price</h2>
+                        <h3>
+                            <span>Voluptate cillum fugiat.</span>
+                            <span>$50</span>
+                        </h3>
+                        <p class="menu-p">Cheese, tomato, mushrooms, onions.</p>
+                        <h3>
+                            <span>Metus varius laoreet.</span>
+                            <span>$62</span>
+                        </h3>
+                        <p class="menu-p">Chicken, mozzarela cheese, onions.</p>
+                        <h3>
+                            <span>Donec sodales magna.</span>
+                            <span>$25</span>
+                        </h3>
+                        <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                        <h3>
+                            <span>Saugue velit cursus.</span>
+                            <span>$30</span>
+                        </h3>
+                        <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                        <h3>
+                            <span>Arcu pede enim justo.</span>
+                            <span>$45</span>
+                        </h3>
+                        <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                        <h3>
+                            <span>Cras dapibussemper nisi.</span>
+                            <span>$32</span>
+                        </h3>
+                        <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                        <h3>
+                            <span>Quam semper libero.</span>
+                            <span>$25</span>
+                        </h3>
+                        <p class="menu-p">Tuna, Sweetcorn, Cheese.</p>
+                        <h3>
+                            <span>Saugue velit cursus.</span>
+                            <span>$30</span>
+                        </h3>
+                        <p class="menu-p">Pineapple, Minced Beef, Cheese.</p>
+                    </div>
+                </div>
+                <h2 class="dish-h2">FEATURED DISHES</h2>
+                <div class="dish">
+                    <div id="dish-img-1">
+                    </div>
+                    <div class="dish-p">
+                    <p class="left-p">Fugiat nulla sint</p>
+                    <p class="right-p">$30</p>
+                </div>
+                <div class="heart-div">
+                    <p>
+                            <a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+                                <span>&#x2764;</span>
+                            </a> people love this.
+                        </p>
+                    </div>
+
+                </div>
+                <div class="dish">
+                    <div id="dish-img-2">
+                    </div>
+                    <div class="dish-p">
+                    <p class="left-p">Daute irure dolor</p>
+                    <p class="right-p">$24</p>
+                </div>
+                    <div class="heart-div">
+                        <p>
+                            <a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+                                <span>&#x2764;</span>
+                            </a> people love this.
+                        </p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div id="dish-img-3">
+                    </div>
+                    <div class="dish-p">
+                    <p class="left-p">Officia deserunt mollit</p>
+                    <p class="right-p">$60</p>
+                </div>
+                    <div class="heart-div">
+                        <p>
+                            <a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+                                <span>&#x2764;</span>
+                            </a> people love this.
+                        </p>
+                    </div>
+                </div>
+                <div class="dish">
+                    <div id="dish-img-4">
+                    </div>
+                    <div class="dish-p">
+                    <p class="left-p">Pim minim veniam</p>
+                    <p class="right-p">$17</p>
+                </div>
+                    <div class="heart-div">
+                        <p>
+                            <a href="#" title="Love it" class="btn btn-counter multiple-count" data-count="0">
+                                <span>&#x2764;</span>
+                            </a> people love this.
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <!-- ABOUT US -->
+                <h2 class="dish-h2" id="about-anchor">ABOUT US</h2>
+                <h1 class="resto-h1">Today's restaurant is theatre on a grand scale.</h1>
+                <div class="about-us">
+                    <article id="article1">
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <b> 
+                            when an unknown printer </b> took a galley of type and scrambled it to make a type 
+                            specimen book. <b>It has survived not only five centuries</b>, but also the leap into 
+                            electronic typesetting, remaining essentially unchanged.  It was popularised in the 1960s 
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with 
+                            desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </article>
+                </div>
+                    <div class="about-us right">
+                    <article>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a 
+                            page when looking at its layout. <b>The point of using Lorem Ipsum</b> is that it has a 
+                            more-or-less normal distribution of letters, as opposed to using 'Content here, content here',
+                            making it look like readable English. Many desktop publishing packages and web page editors 
+                            now use <b>Lorem Ipsum as their default model text</b>, and a search for 'lorem ipsum' will 
+                            uncover many web sites still in their infancy. Various versions have evolved over the years, 
+                            sometimes by accident, sometimes on purpose (injected humour and the like).
+                        </p>
+                    </article>
+                </div>
+                <div class="about-us">
+                    <p><b>It was popularised:</b></p>
+                    <ul>
+                        <li>Lorem Ipsum is simply dummy text of the printing</li>
+                        <li>When an unknown printer took a galley of type and scrambled it to make a type specimen book</li>
+                        <li>Dummy text ever since 1500s</li>
+                    </ul>
+                </div>
+                <div class="about-us right quotes">
+                    <h2>Memories are like mulligatawny <br>soup in a cheap restaurant. It is best not to stir them.</h2>
+                </div>
+
+
+
+                <!-- GALLERY-->
+                <h2 class="dish-h2" id="gallery-anchor">THE GALLERY</h2>
+                <div class="row">
+                    <div class="column">
+                        <div class="one-pic">
+                            <a href="img/pic1.jpg" data-lightbox="dish-1"><img src="img/pic1.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="one-pic">
+                            <a href="img/pic2.jpg" data-lightbox="dish-1"><img src="img/pic2.jpg"></a>
+                        </div>
+                        <div class="one-pic">
+                            <a href="img/pic3.jpg" data-lightbox="dish-1"><img src="img/pic3.jpg"></a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="one-pic">
+                            <a href="img/pic4.jpg" data-lightbox="dish-1"><img src="img/pic4.jpg"></a>
+                        </div>
+                        <div class="one-pic">
+                            <a href="img/pic5.jpg" data-lightbox="dish-1"><img src="img/pic5.jpg"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#img-logo" id="totop" class="sliding-link"><img src="img/totop.png"></a>
+        </div> <!-- #main-container -->
+
+
+        
+
+
+        <div class="footer-container">
+            <footer>
+                <div class="wrapper">
+                    <div class="four-footer">
+                        <p><b>New York Restaurant</b></p>
+                        <a href="https://goo.gl/maps/oPb2r86ERRZq43uLA">3926 Anmoore Road</a>
+                        <p>New York, NT 10014</p>
+                        <a href="tel:+7187491714"><b>718-749-1714</b></a>
+                    </div>
+                    <div class="four-footer">
+                        <p><b>France Restaurant</b></p>
+                        <a href="https://goo.gl/maps/3LGJd3gDqq2H19KDA">68, rue de la Couronne</a>
+                        <p>75002 PARIS</p>
+                        <a href="tel:+0294236956"><b>02.94.23.69.56</b></a>
+                    </div>
+                    <div class="four-footer">
+                        <p>Blog</p>
+                        <p>Careers</p>
+                        <p>Privacy Policy</p>
+                        <p>Contact</p>
+                    </div>
+                    <div class="four-footer">
+                        <img src="img/logo_w.png">
+                        <p>&#x24B8;All Rights Reserved</p>
+                        <p>Find More at <b>Pixelhint.com</b></p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="js/lightbox.js"></script>
+        <script src="js/main.js"></script>
+
+    </body>
+</html>
