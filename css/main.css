@@ -193,18 +193,18 @@ h3 .dots {
 }
 
 #dish-img-1 {
-    background-image: url("/img/dish-1.jpg");
+    background-image: url("../img/dish-1.jpg");
 }
 #dish-img-2 {
-    background-image: url("/img/dish-2.jpg");
+    background-image: url("../img/dish-2.jpg");
 }
 
 #dish-img-3 {
-    background-image: url("/img/dish-3.jpg");
+    background-image: url("../img/dish-3.jpg");
 }
 
 #dish-img-4 {
-    background-image: url("/img/dish-4.jpg");
+    background-image: url("../img/dish-4.jpg");
 }
 
 #heart1, #heart2, #heart3, #heart4 {
@@ -266,11 +266,11 @@ h3 .dots {
 }
 
 .quotes::before { 
-    content: url("/img/quotel.png");
+    content: url("../img/quotel.png");
 }
 
 .quotes::after { 
-    content: url("/img/quoted.png");
+    content: url("../img/quoted.png");
     float: right;
 }
 
@@ -335,7 +335,7 @@ footer a:visited{
   }
 
   .one-pic:hover {
-    background-image: url("/img/zoom.png");
+    background-image: url("../img/zoom.png");
     background-size: 15%;
     background-repeat: no-repeat;
     background-position: center;
