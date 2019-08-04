@@ -693,7 +693,7 @@ nav a:hover{
     padding: 30px 0;
 }
 
-.main article h1 {
+.main .article h1 {
     font-size: 2em;
 }
 
@@ -792,7 +792,7 @@ nav a:hover{
     WIDE: Main
    ============ */
 
-    .main article {
+    .main .article {
         float: left;
         width: 57%;
     }
